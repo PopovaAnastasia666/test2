@@ -1,0 +1,467 @@
+@charset "UTF-8";
+/* line 2, ../../../../учеба 2/src/sass/style.sass */
+* {
+  box-sizing: border-box;
+}
+
+/* line 4, ../../../../учеба 2/src/sass/style.sass */
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* line 8, ../../../../учеба 2/src/sass/style.sass */
+.main-section {
+  position: relative;
+  min-height: 800px;
+  background: #F0F0F0;
+  padding-top: 16px;
+  overflow: hidden;
+}
+
+/* line 17, ../../../../учеба 2/src/sass/style.sass */
+.main-section__nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 69px;
+  align-items: center;
+}
+
+/* line 24, ../../../../учеба 2/src/sass/style.sass */
+.main-section__logo {
+  height: 69px;
+}
+
+/* line 26, ../../../../учеба 2/src/sass/style.sass */
+.main-section__content-container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 30, ../../../../учеба 2/src/sass/style.sass */
+.main-section__first-elipse {
+  position: absolute;
+  top: 129px;
+  right: 34px;
+}
+
+/* line 34, ../../../../учеба 2/src/sass/style.sass */
+.main-section__second-elipse {
+  position: absolute;
+  right: -120px;
+  top: 650px;
+}
+
+/* line 40, ../../../../учеба 2/src/sass/style.sass */
+.nav-menu__list {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+/* line 44, ../../../../учеба 2/src/sass/style.sass */
+.nav-menu__list-item {
+  margin-right: 64px;
+  font-size: 18px;
+}
+
+/* line 47, ../../../../учеба 2/src/sass/style.sass */
+.nav-menu__list-item:last-child {
+  margin-right: 0px;
+}
+
+/* line 49, ../../../../учеба 2/src/sass/style.sass */
+.nav-menu__list-item a {
+  text-decoration: none;
+  color: black;
+}
+
+/* line 53, ../../../../учеба 2/src/sass/style.sass */
+.left-wrapper {
+  position: relative;
+}
+
+/* line 55, ../../../../учеба 2/src/sass/style.sass */
+.left-wrapper img {
+  position: relative;
+  z-index: 5;
+}
+
+/* line 58, ../../../../учеба 2/src/sass/style.sass */
+.left-wrapper__rectangle-blue {
+  position: absolute;
+  top: 150px;
+  left: -50px;
+  width: 565.95px;
+  height: 220px;
+  background: #5290EA;
+  border-radius: 100px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transform: rotate(-64deg);
+  z-index: 2;
+}
+
+/* line 69, ../../../../учеба 2/src/sass/style.sass */
+.left-wrapper__rectangle-orange {
+  position: absolute;
+  width: 618.43px;
+  height: 220px;
+  left: -30px;
+  top: 160px;
+  background: #F28B64;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 100px;
+  transform: rotate(-50.81deg);
+  z-index: 3;
+}
+
+/* line 80, ../../../../учеба 2/src/sass/style.sass */
+.left-wrapper__rectangle-grey {
+  position: absolute;
+  width: 608.97px;
+  height: 220px;
+  left: 10px;
+  top: 190px;
+  background: #E2E2E2;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 100px;
+  transform: rotate(-36.15deg);
+  z-index: 1;
+}
+
+/* line 92, ../../../../учеба 2/src/sass/style.sass */
+.right-wrapper {
+  width: 372px;
+  position: absolute;
+  top: 150px;
+  right: 76px;
+  z-index: 5;
+}
+
+/* line 98, ../../../../учеба 2/src/sass/style.sass */
+.right-wrapper__icons-box {
+  margin-bottom: 1px;
+  padding-left: 10px;
+}
+
+/* line 103, ../../../../учеба 2/src/sass/style.sass */
+.right-wrapper__title {
+  margin-bottom: 5px;
+}
+
+/* line 106, ../../../../учеба 2/src/sass/style.sass */
+.right-wrapper__text {
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+/* line 111, ../../../../учеба 2/src/sass/style.sass */
+.icons {
+  display: inline-flex;
+}
+
+/* line 114, ../../../../учеба 2/src/sass/style.sass */
+.icons__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #5290EA;
+  border-radius: 100px;
+  margin-right: 17px;
+}
+
+/* line 123, ../../../../учеба 2/src/sass/style.sass */
+.icons__item:last-child {
+  margin-right: 0px;
+}
+
+/* line 125, ../../../../учеба 2/src/sass/style.sass */
+.icons__item i {
+  font-size: 21px;
+}
+
+/* line 128, ../../../../учеба 2/src/sass/style.sass */
+.title {
+  font-size: 72px;
+  position: relative;
+}
+
+/* line 131, ../../../../учеба 2/src/sass/style.sass */
+.title__hr {
+  width: 65px;
+  position: absolute;
+  bottom: 0px;
+  margin: 0;
+  border: none;
+  border-top: 1px solid black;
+}
+
+/* line 139, ../../../../учеба 2/src/sass/style.sass */
+.buttons {
+  display: inline-flex;
+}
+
+/* line 141, ../../../../учеба 2/src/sass/style.sass */
+.buttons__main-btn {
+  margin-right: 32px;
+  width: 200px;
+  height: 60px;
+  background: #F28B64;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 100px;
+  border: none;
+  font-size: 18px;
+  color: white;
+}
+
+/* line 152, ../../../../учеба 2/src/sass/style.sass */
+.buttons__icon-btn {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 1px;
+}
+
+/* line 157, ../../../../учеба 2/src/sass/style.sass */
+.buttons__text {
+  margin-left: 25px;
+  font-size: 16px;
+}
+
+/* line 161, ../../../../учеба 2/src/sass/style.sass */
+.elipse {
+  width: 194px;
+  height: 194px;
+  background: linear-gradient(143.92deg, rgba(237, 123, 80, 0.5) 14.85%, rgba(72, 138, 234, 0.5) 53.25%, rgba(44, 44, 44, 0.5) 85.74%);
+  border-radius: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 169, ../../../../учеба 2/src/sass/style.sass */
+.elipse_dig {
+  width: 282px;
+  height: 282px;
+}
+
+/* line 172, ../../../../учеба 2/src/sass/style.sass */
+.elipse__subtract {
+  width: 129.33px;
+  height: 129.33px;
+  background: #F0F0F0;
+  border-radius: 150px;
+}
+
+/* line 177, ../../../../учеба 2/src/sass/style.sass */
+.elipse_big {
+  width: 188px;
+  height: 188px;
+}
+
+/* line 180, ../../../../учеба 2/src/sass/style.sass */
+.second-section {
+  min-height: 700px;
+}
+
+/* line 182, ../../../../учеба 2/src/sass/style.sass */
+.second-section__container {
+  padding-top: 32px;
+  position: relative;
+}
+
+/* line 185, ../../../../учеба 2/src/sass/style.sass */
+.second-section__title {
+  margin-bottom: 40px;
+}
+
+/* line 187, ../../../../учеба 2/src/sass/style.sass */
+.second-section__cards-box {
+  display: inline-flex;
+  margin-bottom: 25px;
+}
+
+/* line 190, ../../../../учеба 2/src/sass/style.sass */
+.second-section__cards-item {
+  margin-right: 30px;
+}
+
+/* line 192, ../../../../учеба 2/src/sass/style.sass */
+.second-section__cards-item:last-child {
+  margin-right: 0px;
+}
+
+/* line 195, ../../../../учеба 2/src/sass/style.sass */
+.second-section__icons-item:last-child {
+  margin-right: 0;
+}
+
+/* line 197, ../../../../учеба 2/src/sass/style.sass */
+.second-section__icons-box {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* line 200, ../../../../учеба 2/src/sass/style.sass */
+.second-section__first-elipse {
+  position: absolute;
+  top: 80px;
+  right: -60px;
+  z-index: -1;
+}
+
+/* line 205, ../../../../учеба 2/src/sass/style.sass */
+.second-section__second-elipse {
+  position: absolute;
+  top: 364px;
+  right: -60px;
+  z-index: -1;
+}
+
+/* line 210, ../../../../учеба 2/src/sass/style.sass */
+.cards-item {
+  position: relative;
+  height: 360px;
+  width: 360px;
+  background: #E2E2E2;
+  border-radius: 10px;
+  display: flex;
+  align-items: flex-end;
+}
+
+/* line 218, ../../../../учеба 2/src/sass/style.sass */
+.cards-item__img {
+  height: 335px;
+}
+
+/* line 220, ../../../../учеба 2/src/sass/style.sass */
+.cards-item__text {
+  width: 280px;
+  font-size: 36px;
+  text-align: center;
+  transform: rotate(90deg);
+  position: absolute;
+  top: 144px;
+  right: -45px;
+}
+
+/* line 228, ../../../../учеба 2/src/sass/style.sass */
+.cards-item__orange {
+  background: #F28B64;
+}
+
+/* line 230, ../../../../учеба 2/src/sass/style.sass */
+.cards-item__blue {
+  background: #5290EA;
+}
+
+/* line 232, ../../../../учеба 2/src/sass/style.sass */
+.icons-item {
+  display: inline-flex;
+  align-items: center;
+}
+
+/* line 235, ../../../../учеба 2/src/sass/style.sass */
+.icons-item__img {
+  margin-right: 20px;
+  width: 80px;
+}
+
+/* line 238, ../../../../учеба 2/src/sass/style.sass */
+.icons-item__text {
+  font-size: 18px;
+}
+
+/* line 240, ../../../../учеба 2/src/sass/style.sass */
+.icons-item__text span {
+  font-size: 48px;
+}
+
+/* line 242, ../../../../учеба 2/src/sass/style.sass */
+.third-section {
+  position: relative;
+  min-height: 640px;
+  background: #E2E2E2;
+  z-index: 0;
+  overflow: hidden;
+}
+
+/* line 248, ../../../../учеба 2/src/sass/style.sass */
+.third-section__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 167px;
+  padding-top: 46px;
+}
+
+/* line 255, ../../../../учеба 2/src/sass/style.sass */
+.third-section__right-wrapper {
+  max-width: 480px;
+}
+
+/* line 257, ../../../../учеба 2/src/sass/style.sass */
+.third-section__right-title {
+  margin-bottom: 20px;
+}
+
+/* line 259, ../../../../учеба 2/src/sass/style.sass */
+.third-section__text {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+/* line 262, ../../../../учеба 2/src/sass/style.sass */
+.third-section__first-elipse {
+  position: absolute;
+  top: 140px;
+  left: 11opx;
+  z-index: -1;
+}
+
+/* line 267, ../../../../учеба 2/src/sass/style.sass */
+.third-section__figure {
+  position: absolute;
+  top: 249px;
+  left: 15px;
+  z-index: -1;
+}
+
+/* line 272, ../../../../учеба 2/src/sass/style.sass */
+.third-section__second-elipse {
+  position: absolute;
+  right: -120px;
+  top: -120px;
+}
+
+/* line 276, ../../../../учеба 2/src/sass/style.sass */
+.title__hr_top {
+  bottom: 75px;
+}
+
+/* line 280, ../../../../учеба 2/src/sass/style.sass */
+.footer__img {
+  position: absolute;
+  left: -250px;
+  bottom: 0px;
+}
+
+/* line 284, ../../../../учеба 2/src/sass/style.sass */
+.footer__container {
+  min-height: 272px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+/* line 289, ../../../../учеба 2/src/sass/style.sass */
+.footer__title {
+  margin-bottom: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
